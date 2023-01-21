@@ -1,9 +1,9 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-1:828019715186:task-definition/familia-tarefa-nginx:4",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:828019715186:task-definition/familia-tarefa-nginx:6",
     "containerDefinitions": [
         {
             "name": "nginx",
-            "image": "828019715186.dkr.ecr.us-east-1.amazonaws.com/nginx:0e777ac5347dff58fa38df6572b0ab25f10b84c7",
+            "image": "828019715186.dkr.ecr.us-east-1.amazonaws.com/nginx:43b5f34e2c6ee6dabd2be50747ba5e69d325ebad",
             "cpu": 0,
             "portMappings": [
                 {
@@ -23,7 +23,7 @@
     "family": "familia-tarefa-nginx",
     "executionRoleArn": "arn:aws:iam::828019715186:role/ecsTaskExecutionRole",
     "networkMode": "bridge",
-    "revision": 4,
+    "revision": 6,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -47,7 +47,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2023-01-21T18:53:49.082Z",
+    "registeredAt": "2023-01-21T18:57:23.345Z",
     "registeredBy": "arn:aws:iam::828019715186:user/schmidt",
     "tags": []
 }
